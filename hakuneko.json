@@ -9,9 +9,6 @@
         "url": "https://github.com/manga-download/hakuneko/releases/download/$version/hakuneko-desktop_$version_windows-portable_amd64.zip"
 },
 "bin": "hakuneko.exe",
-"hash": {
-    "url": "$url.sha256"
-},
 "shortcuts": [
         [
             "hakuneko.exe",
