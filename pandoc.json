@@ -1,0 +1,12 @@
+{ 
+"homepage": "https://github.com/jgm/pandoc/",
+"version": "2.7.2", 
+"description": "Universal markup converter ", 
+"license": "GNU General Public License v2.0",
+"url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-windows-x86_64.zip", 
+"checkver": "github",
+"autoupdate": {	
+        "url": "https://github.com/jgm/pandoc/releases/download/$matchVersion/pandoc-$matchVersion-windows-x86_64.zip"
+},
+"bin": "pandoc.exe" 
+}
