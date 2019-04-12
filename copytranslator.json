@@ -1,0 +1,12 @@
+{ 
+"homepage": "https://github.com/CopyTranslator/CopyTranslator",
+"version": "0.0.8", 
+"description": "Foreign language reading and translation assistant based on copy and translate. ", 
+"license": "GNU General Public License v2.0",
+"url": "https://github.com/CopyTranslator/CopyTranslator/releases/download/v0.0.8-Zouwu-RC3/copytranslator.Setup.v0.0.8-Zouwu-RC3.exe#/dl.7z", 
+"checkver": "github",
+"autoupdate": {	
+        "url": "https://github.com/CopyTranslator/CopyTranslator/releases/download/v$matchVersion-Zouwu-RC3/copytranslator.Setup.v$matchVersion-Zouwu-RC3.exe#/dl.7z"
+},
+"bin": "CopyTranslator.exe" 
+}

@@ -8,5 +8,5 @@
 "autoupdate": {	
         "url": "https://github.com/crow-translate/crow-translate/releases/download/v$/crow-translate-v$-win64.exe#/dl.7z"
 },
-"bin": "crow-translate.exe" 
+"bin": "crow.exe" 
 }
