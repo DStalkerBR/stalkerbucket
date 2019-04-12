@@ -1,0 +1,21 @@
+{ 
+"homepage": "https://github.com/manga-download/hakuneko",
+"version": "0.4.0", 
+"description": "Foreign language reading and translation assistant based on copy and translate. ", 
+"license": "Unlicensed",
+"url": "https://github.com/manga-download/hakuneko/releases/download/0.4.0/hakuneko-desktop_0.4.0_windows-portable_amd64.zip", 
+"checkver": "github",
+"autoupdate": {	
+        "url": "https://github.com/manga-download/hakuneko/releases/download/$version/hakuneko-desktop_$version_windows-portable_amd64.zip"
+},
+"bin": "hakuneko.exe",
+"hash": {
+    "url": "$url.sha256"
+},
+"shortcuts": [
+        [
+            "hakuneko.exe",
+            "Hakuneko"
+        ]
+    ],
+}
