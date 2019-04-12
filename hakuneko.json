@@ -4,7 +4,7 @@
 "description": "Manga Downloader for Linux, Windows & MacOS", 
 "license": "Unlicensed",
 "url": "https://github.com/manga-download/hakuneko/releases/download/0.4.0/hakuneko-desktop_0.4.0_windows-portable_amd64.zip", 
-"extract_dir": "hakuneko-desktop_$version_windows-portable_amd64",
+"extract_dir": "hakuneko-desktop_0.4.0_windows-portable_amd64",
 "checkver": "github",
 "autoupdate": {	
         "url": "https://github.com/manga-download/hakuneko/releases/download/$version/hakuneko-desktop_$version_windows-portable_amd64.zip"
