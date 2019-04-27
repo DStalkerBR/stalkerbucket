@@ -19,15 +19,15 @@
     }
 },
 "post_install": "Remove-Item \"$dir\\app-64.7z\", \"$dir\\app-32.7z\"",
+"bin": "Twine.exe",
+"shortcuts": [
+    [
+        "Twine.exe",
+        "Twine"
+    ]
+],
 "checkver": "github",
 "autoupdate": {	 
 	"url": "https://github.com/klembot/twinejs/releases/download/v$/twine_v$_win.exe#/dl.7z"
-},
-"bin": "Twine.exe",
-"shortcuts": [
-        [
-            "Twine.exe",
-            "Twine"
-        ]
-    ]
+}
 }
