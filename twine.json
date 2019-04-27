@@ -4,14 +4,15 @@
 "description": "Twine, a tool for telling interactive, nonlinear stories ", 
 "license": "GPL3",
 "url": "https://github.com/klembot/twinejs/releases/download/2.3.1/twine_2.3.1_win.exe#/dl.7z", 
+"extract_dir": "$PLUGINSDIR\\app-64.7z",
 "checkver": "github",
 "autoupdate": {	 
         "url": "https://github.com/klembot/twinejs/releases/download/v$/twine_v$_win.exe#/dl.7z"
 },
-"bin": "twine.exe",
+"bin": "Twine.exe",
 "shortcuts": [
         [
-            "twine.exe",
+            "Twine.exe",
             "Twine"
         ]
     ]
