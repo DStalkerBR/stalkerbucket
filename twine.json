@@ -3,10 +3,25 @@
 "version": "2.3.1", 
 "description": "Twine, a tool for telling interactive, nonlinear stories ", 
 "license": "GPL3",
-"url": "https://github.com/klembot/twinejs/releases/download/2.3.1/twine_2.3.1_win.exe#/dl.7z", 
+"url": "https://github.com/klembot/twinejs/releases/download/2.3.1/twine_2.3.1_win.exe#/dl.7z",
+"extract_dir": "\\$PLUGINSDIR",
+"pre_install": "Get-ChildItem \"$dir\" -Exclude 'app-64.7z', 'app-32.7z' | Remove-Item -Force -Recurse",
+"architecture": {
+    "64bit": {
+        "installer": {
+            "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
+        }
+    },
+    "32bit": {
+        "installer": {
+            "script": "extract_7zip \"$dir\\app-32.7z\" \"$dir\""
+        }
+    }
+},
+"post_install": "Remove-Item \"$dir\\app-64.7z\", \"$dir\\app-32.7z\"",
 "checkver": "github",
 "autoupdate": {	 
-        "url": "https://github.com/klembot/twinejs/releases/download/v$/twine_v$_win.exe#/dl.7z"
+	"url": "https://github.com/klembot/twinejs/releases/download/v$/twine_v$_win.exe#/dl.7z"
 },
 "bin": "Twine.exe",
 "shortcuts": [
